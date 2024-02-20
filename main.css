@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+.parent{
+    width: 1200px;
+    height: 600px;
+    background-color: #ddd;
+    margin: 50px auto;
+    position: relative;
+}
+.name{
+position: absolute;
+left: 10%;
+top: 15%;
+text-transform: capitalize;
+}
+.red{
+    color: #f00;
+}
+#name{
+    position: absolute;
+        left: 10%;
+        top: 20%;
+        text-transform: capitalize;
+        white-space: nowrap;
+        font-weight: bold;
+        border: 0px;
+        width: 250px;
+        height: 35px;
+        padding-left: 23px;
+}
+.pass{
+    position: absolute;
+        left: 10%;
+        top: 30%;
+        text-transform: capitalize;
+}
+#pass{
+        position: absolute;
+            left: 10%;
+            top: 35%;
+            text-transform: capitalize;
+            white-space: nowrap;
+            font-weight: bold;
+            border: 0px;
+            width: 250px;
+            height: 35px;
+            padding-left: 23px;
+}
+.mail{
+        position: absolute;
+            left: 10%;
+            top: 45%;
+            text-transform: capitalize;
+}
+#mail{
+            position: absolute;
+                left: 10%;
+                top: 50%;
+                text-transform: capitalize;
+                white-space: nowrap;
+                font-weight: bold;
+                border: 0px;
+                width: 250px;
+                height: 35px;
+                padding-left: 23px;
+}
+.phone{
+    position: absolute;
+        left: 60%;
+        top: 15%;
+        text-transform: capitalize;
+}
+#phone{
+        position: absolute;
+            left: 60%;
+            top: 20%;
+            text-transform: capitalize;
+            white-space: nowrap;
+            font-weight: bold;
+            border: 0px;
+            width: 250px;
+            height: 35px;
+            padding-left: 23px;
+}
+.breif{
+        position: absolute;
+            left: 60%;
+            top: 30%;
+            text-transform: capitalize;
+}
+#breif{
+            position: absolute;
+                left: 60%;
+                top: 35%;
+                text-transform: capitalize;
+}
+#reg{
+    color: #fff;
+        background-color: green;
+        width: 71%;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 10%;
+        top: 60%;
+        text-transform: capitalize;
+        border: 0;
+}
